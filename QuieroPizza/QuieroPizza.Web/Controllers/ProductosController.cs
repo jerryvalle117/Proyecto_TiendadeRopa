@@ -18,7 +18,7 @@ namespace QuieroPizza.Web.Controllers
 
             var producto2 = new ProductoModel();
             producto2.Id = 2;
-            producto2.Descripcion = "Pizza 4 estaciones";
+            producto2.Descripcion = "Pizza 3 estaciones";
 
             var producto3 = new ProductoModel();
             producto3.Id = 3;
