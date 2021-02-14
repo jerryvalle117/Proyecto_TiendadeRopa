@@ -16,6 +16,10 @@ namespace TiendadeRopa.Win
         public Form1()
         {
             InitializeComponent();
+            var productosBL = new ProductosBL();
+            var listadeProductos = productosBL.ObtenerProductos();
+
+            listadeProductosBindingSource.DataSource = listadeProductos;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -23,16 +27,7 @@ namespace TiendadeRopa.Win
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var productosBL = new ProductosBL();
-            var listadeProductos = productosBL.ObtenerProductos();
-
-            foreach (var producto in listadeProductos)
-            {
-                MessageBox.Show(producto.Descripcion);
-            }
-        }
+     
             
     }
 }

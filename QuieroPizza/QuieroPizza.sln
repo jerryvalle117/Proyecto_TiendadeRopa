@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuieroPizza.Web", "QuieroPizza.Web\QuieroPizza.Web.csproj", "{0FF11A5D-69C3-4D37-B64A-C51D76F79678}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendadeRopa.Web", "QuieroPizza.Web\TiendadeRopa.Web.csproj", "{0FF11A5D-69C3-4D37-B64A-C51D76F79678}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendadeRopa.WebAdmin", "TiendadeRopa.WebAdmin\TiendadeRopa.WebAdmin.csproj", "{21F3E6D3-A4D2-4F19-A95D-C25BD3FEB299}"
 EndProject
